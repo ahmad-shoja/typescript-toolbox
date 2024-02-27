@@ -29,7 +29,7 @@ No additional configuration is required. The extension automatically detects and
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvement, please feel free to open an issue on the [GitHub repository](https://github.com/ahmad-shoja/typescript-toolbox).
+If you encounter any issues or have suggestions for improvement, please feel free to open an issue on the [GitHub repository](https://github.com/ahmad-shoja/typescript).
 
 Pull requests are also welcome!
 
