@@ -1,71 +1,38 @@
 # typescript-toolbox README
 
-This is the README for your extension "typescript-toolbox". After writing up a brief description, we recommend including the following sections.
+# Implement Interface Extension for Visual Studio Code
+
+This Visual Studio Code extension provides a convenient way to implement an interface in your TypeScript files using a file explorer context menu.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Adds a context menu item titled "Implement Interface" in the file explorer.
+- Automatically generates a new TypeScript file ({interfacename}Impl.ts) implementing the selected interface.
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open the file explorer in Visual Studio Code.
+2. Right-click on the TypeScript file containing the interface you want to implement.
+3. Select the "Implement Interface" option from the context menu.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+The extension will create a new file named "{interfacename}Impl.ts" and implement the selected interface.
 
-## Requirements
+## Installation
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or use the keyboard shortcut `Ctrl+Shift+X`.
+3. Search for "Implement Interface" and install the extension.
 
-## Extension Settings
+## Configuration
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+No additional configuration is required. The extension automatically detects and implements the selected interface.
 
-For example:
+## Issues and Contributions
 
-This extension contributes the following settings:
+If you encounter any issues or have suggestions for improvement, please feel free to open an issue on the [GitHub repository](https://github.com/ahmad-shoja/typescript-toolbox).
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Pull requests are also welcome!
 
-## Known Issues
+## License
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License](LICENSE.md).
